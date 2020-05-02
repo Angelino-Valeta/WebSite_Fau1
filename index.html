@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="pt">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Evento da Matemática</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="resource/css/main.css" />
+</head>
+
+<body>
+
+    <header class="av-header">
+        <div class="av-name-project">
+            <h1>Evento da Matemática</h1>
+        </div>
+    </header>
+
+    <nav class="av-top-nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Meses Escolares</a></li>
+            <li><a href="#">Tabela</a></li>
+            <li><a href="#">Listas</a></li>
+        </ul>
+    </nav>
+
+    <main class="av-container clearfix">
+        <section class="av-column">
+            <div class="side-left">
+                <h2 class="av-title-header">Recolha de dados</h2>
+
+                <form class="av-getData">
+                    <div>
+                        <input type="text" name="nome" placeholder="nome do estudante">
+                    </div>
+                    <div>
+                        <div class="av-getData-fn"><input type="number" name="idade" placeholder="idade do estudante">
+                        </div>
+                        <div class="av-getData-fn"><input type="number" name="nota" placeholder="nota do estudante">
+                        </div>
+
+                    </div>
+                    <div>
+                        <p>Sexo do estudante</p>
+                        <div>
+                            <label for="masculino">masculino</label>
+                            <input type="radio" id="masculino" name="sexo" checked>
+                            <label for="feminino">feminino</label>
+                            <input type="radio" id="feminino" name="sexo">
+                        </div>
+                    </div>
+                    <div>
+                        <input type="submit" value="adicionar estudante">
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <section class="av-column">
+            <div class="side-right">
+
+                <h2 class="av-title-header">Níveis de Ensino</h2>
+
+                <div class="av-lists">
+                    <ul>
+                        <li>Iº Ciclo
+                            <ol start="1">
+                                <br>
+                                <li>Escola 27 de Março </li>
+                                <br>
+                                <br>
+                                <li>Escola Nossa Senhora da Sabedoria </li>
+                                <br>
+                                <br>
+                            </ol>
+                        </li>
+                        <li >IIº Ciclo
+                            <ol start="3">
+                                <br>
+                                <li>Instituto Médio Politécnico do Lobito </li>
+                                <br>
+                                <br>
+                                <li>Instituto Médio Industrial de Benguela </li>
+                                <br>
+                                <br>
+                                <li>Colégio Santa Doroteia do LObito </li>
+                                <br>
+                                <br>
+                            </ol>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <div class="av-column">
+            <table class="av-table">
+                <tr>
+                    <th>Nº</th>
+                    <th>Nome</th>
+                    <th>Sexo</th>
+                    <th>Idade</th>
+                    <th>nota</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Angelino Valeta</td>
+                    <td>M</td>
+                    <td>23</td>
+                    <td>17</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Justino Dos Santos</td>
+                    <td>M</td>
+                    <td>27</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Jovany Humberto</td>
+                    <td>M</td>
+                    <td>26</td>
+                    <td>15</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Maria Teresa</td>
+                    <td>F</td>
+                    <td>24</td>
+                    <td>14</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Dulce Manuela</td>
+                    <td>F</td>
+                    <td>25</td>
+                    <td>13</td>
+                </tr>
+            </table>
+        </div>
+    </main>
+
+    <footer class="av-footer">
+        <div class="av-row">
+            <p>created by <a href="https://www.github.com/Angelino-Valeta" target="_blank">Angelino Valeta</a></p>
+        </div>
+    </footer>
+
+    <script src="resource/js/main.js"></script>
+</body>
+
+</html>
