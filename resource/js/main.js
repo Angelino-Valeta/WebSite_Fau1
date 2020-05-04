@@ -43,7 +43,7 @@ formRecolhaDados.addEventListener('submit', e => {
     const sexo = formRecolhaDados.sexo.checked
     const idade = formRecolhaDados.idade.value
     const nota = formRecolhaDados.nota.value
-    let number = 1
+    let number = 6
     
     
     if(nome && idade > 0 && nota > 0){
