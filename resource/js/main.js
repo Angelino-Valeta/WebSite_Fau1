@@ -35,3 +35,24 @@ const addDados = (n,nome, sexo, idade, nota) => {
     `
     table.innerHTML += templateTable
 }
+
+formRecolhaDados.addEventListener('submit', e => {
+    e.preventDefault()
+
+    const nome = formRecolhaDados.nome.value.trim()
+    const sexo = formRecolhaDados.sexo.checked
+    const idade = formRecolhaDados.idade.value
+    const nota = formRecolhaDados.nota.value
+    let number = 1
+    
+    
+    if(nome && idade > 0 && nota > 0){
+
+        addDados(number,nome, sexo, idade, nota)
+        formRecolhaDados.reset()
+    }else{
+        alert('Preencha todos os campos')
+    }    
+
+})
+		
