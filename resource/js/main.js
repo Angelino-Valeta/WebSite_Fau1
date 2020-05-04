@@ -9,3 +9,29 @@ const meses = ['Fevereiro',' Março', ' Abril', ' Maio', ' Junho', ' Julho', ' A
 btnMeses.addEventListener('click', () => {
     alert(meses)
 })
+
+/*Recolha dados */
+const addDados = (n,nome, sexo, idade, nota) => {
+    //console.log(nome)
+   // console.log(sexo)
+   // console.log(idade)
+   // console.log(nota)
+
+    if(genero[0].checked){
+        sexo = 'Masculino'
+    }
+    if(genero[1].checked){
+        sexo = 'Feminino'
+    }
+ 
+    const templateTable = `
+    <tr>
+        <td>${n}</td>
+        <td>${nome}</td>
+        <td>${sexo}</td>
+        <td>${idade}</td>
+        <td>${nota}</td>
+    </tr>
+    `
+    table.innerHTML += templateTable
+}
